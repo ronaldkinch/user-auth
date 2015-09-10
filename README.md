@@ -3,6 +3,8 @@
 By Ronald Kinch.
 
 ## Description
+Include welcome page with sign in, log in, and log out.
+Include session registration and authorization.
 
 ## Authors
 
