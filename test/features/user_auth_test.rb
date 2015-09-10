@@ -13,7 +13,6 @@ feature 'Homepage' do
   end
 
   scenario 'User can logout' do
-    skip
     email_address = 'branwyn@example.com'
     welcome_message = "Welcome to the lending library #{email_address}"
     visit '/'
@@ -24,7 +23,7 @@ feature 'Homepage' do
     click_on 'Sign up'
     page.text.must_include(welcome_message)
     click_on 'Log out'
-    expect(page).to_not have_content(welcome_message)
+    page.text.wont_include(welcome_message)
   end
 
   scenario 'User can login with registered email and password' do
