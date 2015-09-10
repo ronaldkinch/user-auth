@@ -3,11 +3,14 @@
 By Ronald Kinch.
 
 ## Description
+Include welcome page with sign in, log in, and log out.
+Include session registration and authorization.
 
 ## Authors
 
 * Ronald Kinch (https://github.com/ronaldkinch)
-
+Source "Emily Platzer Makes Things"
+ http://www.emilyplatzer.io/2014/06/29/user-authentication.html
 
 ## Contributing
 
