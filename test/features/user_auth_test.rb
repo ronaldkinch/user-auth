@@ -56,7 +56,6 @@ feature 'Homepage' do
   end
 
   scenario 'User cannot sign in with an invalid email and/or password' do
-    skip
     email_address = 'branwyn@example.com'
     password = '123456'
     visit '/'
