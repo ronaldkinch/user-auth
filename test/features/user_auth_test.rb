@@ -27,7 +27,6 @@ feature 'Homepage' do
   end
 
   scenario 'User can login with registered email and password' do
-    skip
     email_address = 'branwyn@example.com'
     password = 'password'
     welcome_message = "Welcome to the lending library #{email_address}"
@@ -46,7 +45,6 @@ feature 'Homepage' do
   end
 
   scenario 'User cannot login if their email address does not exist' do
-    skip
     email_address = 'branwyn@example.com'
     password = '123456'
     visit '/'
